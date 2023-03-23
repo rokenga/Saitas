@@ -16,7 +16,7 @@ namespace ToursimApp
             command.ExecuteNonQuery();
         }
 
-        // Executes a query SQL statement(select) lalalal i dont get help meee
+        // Executes a query SQL statement(select) lalalal i dont get help meee whats going on
         public static List<T> ExecuteQuery<T>(string query, Func<MySqlDataReader, T> map)
         {
             string connectionString = @"server=localhost;userid=augis;password=;database=saitas";
