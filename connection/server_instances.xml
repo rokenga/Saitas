@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<data grt_format="2.0">
+  <value _ptr_="0x600002293ae0" type="list" content-type="object" content-struct-name="db.mgmt.ServerInstance">
+    <value type="object" struct-name="db.mgmt.ServerInstance" id="782ED281-3503-4AEC-ABE4-05E9F2E6A12B" struct-checksum="0x367436e2">
+      <link type="object" struct-name="db.mgmt.Connection" key="connection">B29B0715-8CF2-4B30-BDEF-E0DB38D7C5D9</link>
+      <value _ptr_="0x6000022ead00" type="dict" key="loginInfo"/>
+      <value _ptr_="0x6000022eae20" type="dict" key="serverInfo">
+        <value type="string" key="basedir">/usr/local/mysql-8.0.31-macos12-arm64/</value>
+        <value type="string" key="datadir">/usr/local/mysql/data/</value>
+        <value type="string" key="errorLogFilePath">/usr/local/mysql/data/mysqld.local.err</value>
+        <value type="string" key="generalLogFilePath">/usr/local/mysql/data/Robertas-MacBook-Pro.log</value>
+        <value type="string" key="serverVersion">8.0.31</value>
+        <value type="int" key="setupPending">1</value>
+        <value type="string" key="slowLogFilePath">/usr/local/mysql/data/Robertas-MacBook-Pro-slow.log</value>
+        <value type="string" key="sys.config.path"></value>
+        <value type="string" key="sys.config.section">mysqld</value>
+        <value type="string" key="sys.preset">Custom</value>
+        <value type="string" key="sys.system">macOS</value>
+        <value type="int" key="sys.usesudo">0</value>
+        <value type="int" key="sys.usesudostatus">0</value>
+      </value>
+      <value type="string" key="name">Local 3306</value>
+    </value>
+  </value>
+</data>

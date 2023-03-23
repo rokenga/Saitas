@@ -1,0 +1,25 @@
+﻿<Properties StartupConfiguration="{7B783180-57EB-438A-8FB8-3DE654E0A55A}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="ToursimApp/Controllers/WeatherForecastController.cs">
+    <Files>
+      <File FileName="ToursimApp/Controllers/WeatherForecastController.cs" Line="28" Column="55" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="ToursimApp" expanded="True">
+            <Node name="ToursimApp" expanded="True">
+              <Node name="Controllers" expanded="True" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.ToursimApp PreferredExecutionTarget="/Applications/Google Chrome.app" />
+</Properties>
