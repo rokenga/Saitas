@@ -3,14 +3,13 @@ using Microsoft.Data.SqlClient;
 using MySql.Data.MySqlClient;
 using Mysqlx.Prepare;
 using NuGet.Protocol.Plugins;
-using Org.BouncyCastle.Asn1.X509.Qualified;
+//using Org.BouncyCastle.Asn1.X509.Qualified;
+using System.ComponentModel.DataAnnotations;
 
 namespace ToursimApp
 {
     public static class CustomerData
     {
-        // ar man daryti pagal single responsibility principle ar visus 5 SOLID principus
-        // kai turiu ta customers data klase, 
         public static List<Customer> ReadCustomers()
         {
             string query = "SELECT * FROM customer";
@@ -25,6 +24,14 @@ namespace ToursimApp
 
         public static void InsertCustomer(Customer customer)
         {
+            var validationContext = new ValidationContext(customer, serviceProvider: null, items: null);
+            var validationResults = new List<ValidationResult>();
+
+            if (!Validator.TryValidateObject(customer, validationContext, validationResults, validateAllProperties: true))
+            {
+                throw new ValidationException(string.Join(Environment.NewLine, validationResults));
+            }
+
             string query = "INSERT INTO saitas.customer(customer_id, customer_name, customer_surname, customer_birthdate, customer_address, customer_email) VALUES (@id, @name, @surname, @birthdate, @address, @email)";
             QueryExecution.ExecuteNonQuery(query, cmd =>
             {
