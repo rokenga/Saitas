@@ -24,12 +24,12 @@ namespace ToursimApp
 
         public static void InsertCustomer(Customer customer)
         {
-            var validationContext = new ValidationContext(customer, serviceProvider: null, items: null);
-            var validationResults = new List<ValidationResult>();
+            var validator = new CustomerValidator();
+            var validationResult = validator.Validate(customer);
 
-            if (!Validator.TryValidateObject(customer, validationContext, validationResults, validateAllProperties: true))
+            if (!validationResult.IsValid)
             {
-                throw new ValidationException(string.Join(Environment.NewLine, validationResults));
+                throw new Exception(validationResult.Errors.First().ErrorMessage);
             }
 
             string query = "INSERT INTO saitas.customer(customer_id, customer_name, customer_surname, customer_birthdate, customer_address, customer_email) VALUES (@id, @name, @surname, @birthdate, @address, @email)";

@@ -1,15 +1,15 @@
 ﻿<Properties StartupConfiguration="{A5FDD413-560C-469A-97E5-8C7092B8B684}|Default">
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="CustomerData.cs">
+  <MonoDevelop.Ide.ItemProperties.ToursimApp PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="CustomerValidation.cs">
     <Files>
       <File FileName="Program.cs" />
-      <File FileName="Controllers/SaitasController.cs" Line="53" Column="62" />
-      <File FileName="../../saitas.sql" Line="1" Column="1" />
-      <File FileName="Models/Customer.cs" Line="1" Column="1" />
-      <File FileName="CustomerData.cs" Line="119" Column="64" />
+      <File FileName="Controllers/SaitasController.cs" Line="1" Column="1" />
+      <File FileName="../../saitas.sql" />
+      <File FileName="Models/Customer.cs" Line="3" Column="1" />
+      <File FileName="CustomerData.cs" Line="1" Column="1" />
+      <File FileName="QueryExecution.cs" Line="16" Column="1" />
+      <File FileName="CustomerValidation.cs" Line="3" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -26,7 +26,9 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.ItemProperties.ToursimApp PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
 </Properties>

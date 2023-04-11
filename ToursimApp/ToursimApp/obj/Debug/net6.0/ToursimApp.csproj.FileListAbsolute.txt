@@ -279,3 +279,4 @@
 /Users/robertarukaityte/Desktop/sql/ToursimApp/ToursimApp/bin/Debug/net6.0/krb5_64.dll
 /Users/robertarukaityte/Desktop/sql/ToursimApp/ToursimApp/bin/Debug/net6.0/krbcc64.dll
 /Users/robertarukaityte/Desktop/sql/ToursimApp/ToursimApp/bin/Debug/net6.0/BouncyCastle.Crypto.dll
+/Users/robertarukaityte/Desktop/sql/ToursimApp/ToursimApp/bin/Debug/net6.0/FluentValidation.dll
