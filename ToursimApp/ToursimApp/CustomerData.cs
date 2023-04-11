@@ -4,10 +4,13 @@ using MySql.Data.MySqlClient;
 using Mysqlx.Prepare;
 using NuGet.Protocol.Plugins;
 //using Org.BouncyCastle.Asn1.X509.Qualified;
-using System.ComponentModel.DataAnnotations;
+//using System.ComponentModel.DataAnnotations;
 
 namespace ToursimApp
 {
+
+    // nefollowina interface segragation principle, bet ar man reiktu sitai klasei?
+    // ar man butina, kad visos mano klases followintu tuos SID principles? ar tai yra kaip suggestion
     public static class CustomerData
     {
         public static List<Customer> ReadCustomers()
